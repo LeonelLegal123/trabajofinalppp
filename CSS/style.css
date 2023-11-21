@@ -1,0 +1,109 @@
+.lol img {
+     width: 120px;
+}
+
+.flex {
+     width: 40%;
+     display: inline-flex;
+}
+
+body {
+     background: linear-gradient(orange, rgba(0, 0, 0, 0.726), orange, rgba(0, 0, 0, 0.726));
+}
+
+.navbar {
+     background: linear-gradient(orange, grey, black);
+}
+
+.btn {
+     background-color: deepskyblue;
+}
+
+p {
+     color: black;
+}
+
+.lul {
+     width: 60%;
+     margin: 2px;
+}
+
+.ps {
+     height: 270px;
+}
+
+li {
+     list-style: none;
+}
+
+#legal {
+     border: solid 2px rgb(7, 14, 52);
+     border-radius: 10px;
+     margin: 2px;
+}
+
+.acomodar {
+     width: 500px;
+
+}
+
+.o {
+     width: 50px;
+}
+
+.f {
+     width: 50px;
+}
+
+.z {
+     width: 100px;
+}
+
+.lp {
+     width: 695px;
+
+}
+
+.fp {
+     width: 619px;
+
+}
+
+.carousel-control {
+     background-color: darkcyan;
+}
+
+.toggle {
+     color: black;
+}
+.ar{
+     width: 300px;
+     height: 310px;
+}
+.achicar {
+     width: 300px;
+     height: 310px;
+}
+
+.er {
+     width: 300px;
+     height: 310px;
+}
+
+.ir {
+     width: 300px;
+     height: 310px;
+}
+
+.or {
+     width: 300px;
+     height: 310px;
+}
+
+.ur {
+     width: 300px;
+     height: 310px;
+}
+h6{
+     color:aqua;
+}
