@@ -31,10 +31,7 @@
           <li><a class="dropdown-item" id="ver" href="#lo">Mis redes sociales</a></li>
         </ul>
       </li>
-      <form class="flex">
-        <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search">
-        <button class="btn" type="submit">Buscar</button>
-      </form>
+      
   </nav>
 
   <center>
@@ -94,49 +91,19 @@
         mysqli_close($sql);
         ?>
 
-    </div>
+    </div >
 </div>
-  <center>
-    <h1>Rellena el formulario</h1>
-    <div id="la" class="acomodar">
-      <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-4 position-relative">
-          <label for="validationTooltip01" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="validationTooltip01" value="" required>
-          <div class="valid-tooltip">
-            Se ve bien
-          </div>
-        </div>
-        <div class="col-md-4 position-relative">
-          <label for="validationTooltip02" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="validationTooltip02" value="" required>
-          <div class="valid-tooltip">
-            Se ve bien
-          </div>
-        </div>
-        <div class="col-md-4 position-relative">
-          <label for="validationTooltipUsername" class="form-label">Correo Electrónico</label>
-          <div class="input-group has-validation">
-            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-            <input type="text" class="form-control" id="validationTooltipUsername"
-              aria-describedby="validationTooltipUsernamePrepend" required>
-            <div class="invalid-tooltip">
-              Rellena este campo
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 position-relative">
-          <label for="validationTooltip03" class="form-label">Teléfono</label>
-          <input type="text" class="form-control" id="validationTooltip03" required>
-          <div class="invalid-tooltip">
-            Rellena este campo
-          </div>
-        </div>
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit">Enviar</button>
-        </div>
-      </form>
-  </center>
+ <form class="responsivew" id="la">
+     <h1>Formulario</h1>
+     <label name="nombre">Nombre</label>
+     <input type="text" name="nombre" placeholder="------">
+     
+     <label name="apellido">Apellido</label>
+     <input type="text" name="apellido" placeholder="------">
+     
+     <label name="correo">Correo</label>
+     <input type="text" name="nombre" placeholder="------">
+ </form>
 
   <div id="lo">
     <h2>Me pueden contactar por los siguientes contactos</h2>
