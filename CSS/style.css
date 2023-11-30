@@ -2,21 +2,12 @@
      width: 120px;
 }
 
-.flex {
-     width: 40%;
-     display: inline-flex;
-}
-
 body {
      background: linear-gradient(orange, rgba(0, 0, 0, 0.726), orange, rgba(0, 0, 0, 0.726));
 }
 
 .navbar {
      background: linear-gradient(orange, grey, black);
-}
-
-.btn {
-     background-color: deepskyblue;
 }
 
 p {
@@ -28,25 +19,9 @@ p {
      margin: 2px;
 }
 
-.ps {
-     height: 270px;
-}
-
 li {
      list-style: none;
 }
-
-#legal {
-     border: solid 2px rgb(7, 14, 52);
-     border-radius: 10px;
-     margin: 2px;
-}
-
-.acomodar {
-     width: 500px;
-
-}
-
 .i {
      width: 50px;
      margin-left: 20px;
@@ -62,58 +37,20 @@ li {
      
 }
 
-.lp {
-     width: 695px;
-
-}
-
-.fp {
-     width: 619px;
-
-}
-
 .carousel-control {
      background-color: darkcyan;
 }
 
-.toggle {
-     color: black;
-}
-.ar{
-     width: 300px;
-     height: 310px;
-}
-.achicar {
-     width: 300px;
-     height: 310px;
-}
-
-.er {
-     width: 300px;
-     height: 310px;
-}
-
-.ir {
-     width: 300px;
-     height: 224px;
-}
-
-.or {
-     width: 300px;
-     height: 320px;
-}
-
-.ur {
-     width: 320px;
-     height: 368px;
-}
-
-h6{
-     color:aqua;
-}
-
-.lo{
-     margin-left: 10000px;
+#lo{
+    padding: 2px; 
+    border-radius: 4px;
+    display: block;
+    box-sizing: content-box;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    transition: all 0.40s;
+    font-size:1.2em;
 }
 
 #notanlargo{
@@ -144,84 +81,33 @@ form {
     display: none;
 }
 
-.formulario {
+.responsivew{
     margin-top: 5px;
     padding: 2px;
-    background-color: rgba(0, 0, 0, 0.350);
+    background-color: orange;
     border-radius: 4px;
     box-shadow: 7px 13px 37px #00000069;
-    display: flexbox;
+    display: block;
     box-sizing: content-box;
     text-align: center;
     width: 400px;
     margin: auto;
     transition: all 0.40s;
+    font-size:1.2em;
 }
 
 @media screen and (max-width:450px) {
-    .formulario {
+    .responsivew {
         width: 300px;
     }
 }
 
 @media screen and (max-width:350px) {
-    .formulario {
+    .responivew {
         width: 250px;
     }
 }
 
-.formulario:hover {
-    background-color: rgba(0, 0, 0, 0.750);
-    box-shadow: 7px 13px 37px #000000f3;
-}
-
-.formulario h4 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: gold;
-}
-
-.desaparecer {
-    background: none;
-    border: none;
-    width: 130px;
-    margin: auto;
-    color: gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 120%;
-}
-
-.desaparecer:hover{
-    color: gold;
-}
-
-.aparecer {
-    display: block;
-}
-
-.formulario h1 {
-    text-align: left;
-}
-
-.formulario input {
-    width: 95%;
-    border-radius: 10px;
-    background-color: rgba(83, 83, 83, 0.096);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: gray;
-    transition: all 0.55s;
-}
-
-.formulario input:hover {
-    border-radius: 5px;
-    border-color: 1px solid white;
-}
-
-.eni {
-    background: none;
-    border: none;
-    width: 130px;
-    margin: auto;
-    color: gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 115%;
+input{
+    width:100%;
 }
