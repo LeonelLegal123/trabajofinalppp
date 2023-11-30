@@ -47,16 +47,19 @@ li {
 
 }
 
-.o {
+.i {
      width: 50px;
+     margin-left: 20px;
 }
 
 .f {
-     width: 50px;
+     width: 50px; 
+     margin-left: 20px;
 }
 
-.z {
+.w {
      width: 100px;
+     
 }
 
 .lp {
@@ -92,18 +95,133 @@ li {
 
 .ir {
      width: 300px;
-     height: 310px;
+     height: 224px;
 }
 
 .or {
      width: 300px;
-     height: 310px;
+     height: 320px;
 }
 
 .ur {
-     width: 300px;
-     height: 310px;
+     width: 320px;
+     height: 368px;
 }
+
 h6{
      color:aqua;
+}
+
+.lo{
+     margin-left: 10000px;
+}
+
+#notanlargo{
+    height:300px;
+}
+
+.card{
+height:480px;
+}
+
+@media screen and (max-width:769){
+     .card{
+height:auto;
+}
+}
+
+@media screen and (max-width:518){
+     #achicar{
+         width:200px;
+     }
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.fx {
+    display: none;
+}
+
+.formulario {
+    margin-top: 5px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.350);
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #00000069;
+    display: flexbox;
+    box-sizing: content-box;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    transition: all 0.40s;
+}
+
+@media screen and (max-width:450px) {
+    .formulario {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .formulario {
+        width: 250px;
+    }
+}
+
+.formulario:hover {
+    background-color: rgba(0, 0, 0, 0.750);
+    box-shadow: 7px 13px 37px #000000f3;
+}
+
+.formulario h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+}
+
+.desaparecer {
+    background: none;
+    border: none;
+    width: 130px;
+    margin: auto;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+}
+
+.desaparecer:hover{
+    color: gold;
+}
+
+.aparecer {
+    display: block;
+}
+
+.formulario h1 {
+    text-align: left;
+}
+
+.formulario input {
+    width: 95%;
+    border-radius: 10px;
+    background-color: rgba(83, 83, 83, 0.096);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    transition: all 0.55s;
+}
+
+.formulario input:hover {
+    border-radius: 5px;
+    border-color: 1px solid white;
+}
+
+.eni {
+    background: none;
+    border: none;
+    width: 130px;
+    margin: auto;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 115%;
 }
