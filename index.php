@@ -8,9 +8,18 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="icon" type="img/x-icon" href="img/logoempresa.png">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/stylee.css" rel="stylesheet">
 </head>
-
+<script>
+  function confirmacion() {
+  var respuesta = confirm("¿desea enviar estos datos?");
+  if (respuesta == true) {
+    return true;
+  } else {
+    return false;
+  }
+  }
+</script>
 <body>
 
   <nav class="navbar">
@@ -39,13 +48,13 @@
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/compuescritorio.jpg" class="d-block w-100" alt="...">
+            <img src="img/compuescritorio.jpg" class="d-block lp" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <img src="img/pcgamer.webp" class="lp" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="img/componentes.jpg" class="fp" alt="...">
+            <img src="img/componentes.jpg" class="lp" alt="...">
           </div>
         </div>
         <button class="carousel-control" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -96,13 +105,14 @@
  <form class="responsivew" id="la">
      <h1>Formulario</h1>
      <label name="nombre">Nombre</label>
-     <input type="text" name="nombre" placeholder="------">
+     <input type="text" name="nombre" placeholder="" required>
      
      <label name="apellido">Apellido</label>
-     <input type="text" name="apellido" placeholder="------">
+     <input type="text" name="apellido" placeholder="" required>
      
      <label name="correo">Correo</label>
-     <input type="text" name="nombre" placeholder="------">
+     <input type="email" name="nombre" placeholder="" required>
+     <button type="submit" class="btn btn-primary"  onclick="return confirmacion()">Enviar</button>
  </form>
 
   <div id="lo">
