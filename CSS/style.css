@@ -34,7 +34,6 @@ li {
 
 .w {
      width: 100px;
-     
 }
 
 .carousel-control {
@@ -110,4 +109,14 @@ form {
 
 input{
     width:100%;
+}
+.lp{
+    width: 700px;
+    height: 350px;
+}
+
+@media screen and (max-width:850px){
+    .lul{
+        display:none;
+    }
 }
